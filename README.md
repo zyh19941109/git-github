@@ -1,2 +1,2 @@
 # git-github
-git&amp;&amp;github
+git-github
