@@ -272,33 +272,33 @@
 
 > 当没有权限还想参与别人的项目时
 
-	    1.先找到想参与的项目，fork
-	    
-	    2.把fork的项目克隆到本地
-	    
-	    3.去修改项目文件
-	    
-	    4.提交
-	    
-	    5.点击 Pull requests
-	    
-	    6.点击new Pull request
-	    
-	    7.点击create Pull request
-	    
-	    8.在留言板下点击create Pull request
-	    
-	    9.等待别人的回复
+		1.先找到想参与的项目，fork
+		
+		2.把fork的项目克隆到本地
+		
+		3.去修改项目文件
+		
+		4.提交
+		
+		5.点击 Pull requests
+		
+		6.点击new Pull request
+		
+		7.点击create Pull request
+		
+		8.在留言板下点击create Pull request
+		
+		9.等待别人的回复
 
 > 当你收到了修改通知的时候
 
-	    1.进入项目
-	    
-	    2.点击files changed 查看修改的记录
-	    
-	    3.如果同意点击 merge Pull request
-	    
-	    4.点击Confirm  merge
+		1.进入项目
+		
+		2.点击files changed 查看修改的记录
+		
+		3.如果同意点击 merge Pull request
+		
+		4.点击Confirm  merge
 
 ### 22. 分支
 
