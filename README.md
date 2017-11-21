@@ -1,6 +1,5 @@
 ﻿## git和github
 
-
 ### 1. git : 工具
 
     	版本控制工具
@@ -53,7 +52,7 @@
 			
 		(4) 查看测试有没有绑定成功,Hi!xxx
 		
-			ssh -T git@github.com  
+			ssh -T git@github.com
 		
 		命令:
 			进入目录:
