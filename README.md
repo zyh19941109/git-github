@@ -331,7 +331,7 @@
 			
 			git branch --no-merged
 			
-		查看已分支：
+		查看已合并的分支：
 			
 			git branch --merged
 			
