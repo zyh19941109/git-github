@@ -351,6 +351,26 @@
 		
 		5.如果需要，可以把合并之后的分支删除
 
+### git本地创建远程仓库分支
+
+		1.本地创建分支zyh
+		
+			$ git branch zyh
+		
+		2.本地分支提交至远程仓库
+		
+			$ git push origin dev
+		
+		3:查看一下远程仓库有几个分支
+		
+			$ git branch -a
+			master
+			  
+			*zyh  *号代表你现在所在的分支
+			remotes/origin/HEAD -> origin/master
+			remotes/origin/zyh  远程仓库zyh分支
+			remotes/origin/master  远程仓库master分支
+
 ### 密码
 
 		设置记住密码（默认15分钟）：
