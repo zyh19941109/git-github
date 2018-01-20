@@ -365,8 +365,7 @@
 		
 			$ git branch -a
 			master
-			  
-			*zyh  *号代表你现在所在的分支
+			*zyh    *号代表你现在所在的分支
 			remotes/origin/HEAD -> origin/master
 			remotes/origin/zyh  远程仓库zyh分支
 			remotes/origin/master  远程仓库master分支
