@@ -359,7 +359,7 @@
 		
 		2.本地分支提交至远程仓库
 		
-			$ git push origin dev
+			$ git push origin zyh
 		
 		3:查看一下远程仓库有几个分支
 		
