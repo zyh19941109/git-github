@@ -387,29 +387,38 @@
 
 ### tag操作
 
-		查看标签
-		git tag
+		查看标签：
 
-		创建轻量标签
-		git tag <tagname>
+			git tag
 
-		创建带备注标签(推荐)
-		git tag -a <tagname> -m "这是备注信息"
+		创建轻量标签：
 
-		针对特定commit版本SHA创建标签
-		git tag -a <tagname> <SHA值> -m "这是备注信息"
+			git tag <tagname>
 
-		删除标签(本地)
-		git tag -d <tagname>
+		创建带备注标签(推荐)：
 
-		将本地标签发布到远程仓库
-		git push origin --tags
+			git tag -a <tagname> -m "这是备注信息"
 
-		指定版本发送
-		git push origin <tagname>
+		针对特定commit版本SHA创建标签：
 
-		删除远程分支
-		git push origin --delete <branchName>
+			git tag -a <tagname> <SHA值> -m "这是备注信息"
 
-		删除tag
-		git push origin --delete tag <tagname>
+		删除标签(本地)：
+
+			git tag -d <tagname>
+
+		将本地标签发布到远程仓库：
+
+			git push origin --tags
+
+		指定版本发送：
+
+			git push origin <tagname>
+
+		删除远程分支：
+
+			git push origin --delete <branchName>
+
+		删除tag：
+
+			git push origin --delete tag <tagname>
