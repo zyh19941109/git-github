@@ -422,3 +422,7 @@
 		删除tag：
 
 			git push origin --delete tag <tagname>
+
+### git强制推送（谨慎使用）
+
+> git push -f origin master    -f为force，意为：强行、强制
