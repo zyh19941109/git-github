@@ -225,6 +225,17 @@
 			
 		如果回滚的次数很多，有些时候会发现git log中没有想恢复的版本信息，那这个时候就可以使用git reflog 来查找操作信息。
 
+		回退命令：
+
+		git reset --hard HEAD^			回退到上个版本
+		git reset --hard HEAD~3			回退到前3次提交之前，以此类推，回退到n次提交之前
+		git reset --hard commit_id		退到/进到 指定commit的hash码
+
+
+		强制推送至远程：
+
+			git push origin HEAD --force
+
 ### 19. 设置多人开发的权限
 
 		1.进入项目
