@@ -447,15 +447,18 @@
 		当我想从远程仓库里拉取一条本地不存在的分支时：
 
 		git checkout -b 本地分支名 origin/远程分支名
+
 		这个将会自动创建一个新的本地分支，并与指定的远程分支关联起来。
 
 		如果出现提示：
 
 		fatal: Cannot update paths and switch to branch 'dev' at the same time.
 		Did you intend to checkout 'origin/dev' which can not be resolved as commit?
+
 		表示拉取不成功。我们需要先执行
 
 		git fetch
+		
 		然后再执行
 
 		git checkout -b 本地分支名 origin/远程分支名
