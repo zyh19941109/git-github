@@ -462,3 +462,8 @@
 		然后再执行
 
 		git checkout -b 本地分支名 origin/远程分支名
+
+### 退出git merging状态
+
+> git reset --hard head  该命令是回退版本信息
+
